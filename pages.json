@@ -1,0 +1,6 @@
+{
+  "base": "https://proqa.mywetechnologies.com/admin",
+  "pages": [
+    { "url": "/admin/inventory", "title": "" }
+  ]
+}

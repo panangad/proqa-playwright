@@ -1,0 +1,20 @@
+[
+  {
+    "id": "inventory-filter-by-status",
+    "title": "Inventory: filter orders by status dropdown",
+    "description": "Filters the inventory table by the Dispatched status and confirms only matching rows remain.",
+    "file": "tests/inventory-filter-by-status.spec.ts"
+  },
+  {
+    "id": "inventory-search-by-customer",
+    "title": "Inventory: search orders by customer name",
+    "description": "Searches the inventory table by customer name 'Rahul' and confirms only matching rows remain.",
+    "file": "tests/inventory-search-by-customer.spec.ts"
+  },
+  {
+    "id": "inventory-select-and-print",
+    "title": "Inventory: select orders and bulk print invoices",
+    "description": "Selects an order row and triggers bulk invoice printing, verifying the Print Selected counter and invoice output.",
+    "file": "tests/inventory-select-and-print.spec.ts"
+  }
+]
