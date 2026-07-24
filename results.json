@@ -1,0 +1,306 @@
+{
+  "config": {
+    "argv": [
+      "/usr/bin/node",
+      "/tmp/maestro/fb12cb50-9b6e-4e4a-8ef0-578a4e3c4c5b/app/node_modules/.bin/playwright",
+      "test",
+      "--reporter=json,line"
+    ],
+    "configFile": "/tmp/maestro/fb12cb50-9b6e-4e4a-8ef0-578a4e3c4c5b/app/playwright.config.ts",
+    "rootDir": "/tmp/maestro/fb12cb50-9b6e-4e4a-8ef0-578a4e3c4c5b/app/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/tmp/maestro/fb12cb50-9b6e-4e4a-8ef0-578a4e3c4c5b/app/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "/tmp/maestro/fb12cb50-9b6e-4e4a-8ef0-578a4e3c4c5b/app/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "json"
+      ],
+      [
+        "line"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.61.1",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "inventory-filter-by-status.spec.ts",
+      "file": "inventory-filter-by-status.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Inventory: filter orders by status dropdown",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3240,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-07-24T08:40:17.345Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/tmp/maestro/fb12cb50-9b6e-4e4a-8ef0-578a4e3c4c5b/app/test-results/inventory-filter-by-status-d6efe-r-orders-by-status-dropdown/test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/tmp/maestro/fb12cb50-9b6e-4e4a-8ef0-578a4e3c4c5b/app/test-results/inventory-filter-by-status-d6efe-r-orders-by-status-dropdown/video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/tmp/maestro/fb12cb50-9b6e-4e4a-8ef0-578a4e3c4c5b/app/test-results/inventory-filter-by-status-d6efe-r-orders-by-status-dropdown/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "7525a14df36484de6e17-eab6472ce8f9ebdff72a",
+          "file": "inventory-filter-by-status.spec.ts",
+          "line": 8,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "inventory-search-by-customer.spec.ts",
+      "file": "inventory-search-by-customer.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Inventory: search orders by customer name",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2845,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-07-24T08:40:20.744Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/tmp/maestro/fb12cb50-9b6e-4e4a-8ef0-578a4e3c4c5b/app/test-results/inventory-search-by-custom-5adf6-rch-orders-by-customer-name/test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/tmp/maestro/fb12cb50-9b6e-4e4a-8ef0-578a4e3c4c5b/app/test-results/inventory-search-by-custom-5adf6-rch-orders-by-customer-name/video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/tmp/maestro/fb12cb50-9b6e-4e4a-8ef0-578a4e3c4c5b/app/test-results/inventory-search-by-custom-5adf6-rch-orders-by-customer-name/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9d863889658d8c2bf663-12ae8c88563dcfa0500b",
+          "file": "inventory-search-by-customer.spec.ts",
+          "line": 8,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "inventory-select-and-print.spec.ts",
+      "file": "inventory-select-and-print.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Inventory: select orders and bulk print invoices",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3302,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-07-24T08:40:23.659Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/tmp/maestro/fb12cb50-9b6e-4e4a-8ef0-578a4e3c4c5b/app/test-results/inventory-select-and-print-54e7d-ers-and-bulk-print-invoices/test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/tmp/maestro/fb12cb50-9b6e-4e4a-8ef0-578a4e3c4c5b/app/test-results/inventory-select-and-print-54e7d-ers-and-bulk-print-invoices/video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/tmp/maestro/fb12cb50-9b6e-4e4a-8ef0-578a4e3c4c5b/app/test-results/inventory-select-and-print-54e7d-ers-and-bulk-print-invoices/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "675d5890bf3ed392644b-373e03f5d087ffa0d076",
+          "file": "inventory-select-and-print.spec.ts",
+          "line": 8,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "navigation.spec.ts",
+      "file": "navigation.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "navigation: all pages are reachable",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2688,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-07-24T08:40:27.053Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "/tmp/maestro/fb12cb50-9b6e-4e4a-8ef0-578a4e3c4c5b/app/test-results/navigation-navigation-all-pages-are-reachable/test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "/tmp/maestro/fb12cb50-9b6e-4e4a-8ef0-578a4e3c4c5b/app/test-results/navigation-navigation-all-pages-are-reachable/video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/tmp/maestro/fb12cb50-9b6e-4e4a-8ef0-578a4e3c4c5b/app/test-results/navigation-navigation-all-pages-are-reachable/trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "5d2868f7d23420c27cca-76ab5afc477f1dce3af5",
+          "file": "navigation.spec.ts",
+          "line": 6,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-07-24T08:40:16.829Z",
+    "duration": 12981.163,
+    "expected": 4,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

@@ -1,0 +1,1 @@
+{"mcpServers": {"browser": {"command": "node", "args": ["/app/browser.mjs", "--profile", "setup", "--url", "about:blank"], "env": {"RECON_EMAIL": "admin", "RECON_PASSWORD": "password123"}}}}
